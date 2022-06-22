@@ -5,7 +5,7 @@ describe('HomePage', () => {
         cy.injectAxe()
     })
     xit('should have an aria-current home link', () => {
-        cy.get('#header-logo a').should('have.attr', 'aria-current', 'page')
+        cy.get('#header-logo a').should('have.attr', 'aria-currents', 'page')
     })
     xit('should have no accessibility violations on load', () => {
         cy.checkA11y()
